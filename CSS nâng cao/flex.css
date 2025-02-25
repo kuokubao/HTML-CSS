@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  padding: 20px;
+  color: white;
+  width: 300px;
+}
+
+.box-1 {
+  background-color: rgb(225, 87, 87);
+  /* Màu nền đỏ */
+}
+
+.box-2 {
+  background-color: rgb(133, 227, 133);
+  /* Màu nền xanh lá */
+}
+
+.box-3 {
+  background-color: rgb(69, 121, 231);
+  /* Màu nền xanh dương */
+}
