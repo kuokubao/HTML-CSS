@@ -1,0 +1,36 @@
+h1 {
+  font: 1em sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+#test ul ul>p {
+  color: blueviolet;
+}
+
+#test ul ul {
+  color: green;
+}
+
+html {
+  font-size: 32px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 16px;
+}
+
+.mini-box {
+  width: 1em;
+  /* 1em = 16px */
+  height: 1rem;
+  /* 1rem = 32px */
+  background-color: blue;
+  border: 2px solid black;
+  /* Thêm border để dễ nhận diện */
+}
