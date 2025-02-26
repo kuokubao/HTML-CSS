@@ -1,0 +1,25 @@
+@import 'variable';
+@import 'mixins';
+@import 'header';
+
+.layout {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 750px;
+    margin-top: 35px;
+    background-color: #fff;
+}
+.footer p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.btn {
+    @include buttonStyle;
+}
