@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.0.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "name": "Demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kuokubao/HTML-CSS.git",
+  "author": "Do Quoc Bao <baba@gmail.com>",
+  "license": "MIT"
+}
